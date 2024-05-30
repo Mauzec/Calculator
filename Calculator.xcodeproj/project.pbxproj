@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55294E062BEF821200F06796 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55294E052BEF821200F06796 /* CalculatorView.swift */; };
+		55837A1E2BFA18D100E42774 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55837A1D2BFA18D000E42774 /* ButtonType.swift */; };
+		55837A202BFA194A00E42774 /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55837A1F2BFA194A00E42774 /* Digit.swift */; };
+		55837A222BFA196200E42774 /* ArithmeticOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55837A212BFA196200E42774 /* ArithmeticOperation.swift */; };
+		55837A272BFA1DC000E42774 /* CalculatorButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55837A262BFA1DC000E42774 /* CalculatorButtonStyle.swift */; };
+		55854AAF2C04CF9700D63792 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55854AAE2C04CF9700D63792 /* Constants.swift */; };
+		55854AB12C04D55E00D63792 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55854AB02C04D55E00D63792 /* Calculator.swift */; };
+		55B9F3642C08A3BB0029EE97 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B9F3632C08A3BB0029EE97 /* CalculatorViewModel.swift */; };
+		55B9F3672C08C3EB0029EE97 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 55B9F3662C08C3EB0029EE97 /* Inject */; };
 		55DA13152BEE60BD007B4293 /* CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA13142BEE60BD007B4293 /* CalculatorApp.swift */; };
-		55DA13172BEE60BD007B4293 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DA13162BEE60BD007B4293 /* ContentView.swift */; };
 		55DA13192BEE60BE007B4293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DA13182BEE60BE007B4293 /* Assets.xcassets */; };
 		55DA131C2BEE60BE007B4293 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55DA131B2BEE60BE007B4293 /* Preview Assets.xcassets */; };
+		55E970892C0297D50055F4A1 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E970882C0297D50055F4A1 /* CalculatorButton.swift */; };
+		55E9708D2C029BCD0055F4A1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 55E9708C2C029BCD0055F4A1 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55294E052BEF821200F06796 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		55837A1D2BFA18D000E42774 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		55837A1F2BFA194A00E42774 /* Digit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digit.swift; sourceTree = "<group>"; };
+		55837A212BFA196200E42774 /* ArithmeticOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperation.swift; sourceTree = "<group>"; };
+		55837A262BFA1DC000E42774 /* CalculatorButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonStyle.swift; sourceTree = "<group>"; };
+		55854AAE2C04CF9700D63792 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55854AB02C04D55E00D63792 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		55B9F3632C08A3BB0029EE97 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		55B9F3682C08C4470029EE97 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55DA13112BEE60BD007B4293 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DA13142BEE60BD007B4293 /* CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorApp.swift; sourceTree = "<group>"; };
-		55DA13162BEE60BD007B4293 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55DA13182BEE60BE007B4293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55DA131B2BEE60BE007B4293 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55E970882C0297D50055F4A1 /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		55E9708C2C029BCD0055F4A1 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,16 +46,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B9F3672C08C3EB0029EE97 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55294E072BEF82B300F06796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55837A1D2BFA18D000E42774 /* ButtonType.swift */,
+				55837A1F2BFA194A00E42774 /* Digit.swift */,
+				55837A212BFA196200E42774 /* ArithmeticOperation.swift */,
+				55854AB02C04D55E00D63792 /* Calculator.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55837A252BFA1DA800E42774 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				55837A262BFA1DC000E42774 /* CalculatorButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		55DA13082BEE60BD007B4293 = {
 			isa = PBXGroup;
 			children = (
+				55B9F3682C08C4470029EE97 /* README.md */,
 				55DA13132BEE60BD007B4293 /* Calculator */,
+				55E9708C2C029BCD0055F4A1 /* .swiftlint.yml */,
 				55DA13122BEE60BD007B4293 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,10 +93,15 @@
 		55DA13132BEE60BD007B4293 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				55E970862C0297AA0055F4A1 /* View */,
+				55294E052BEF821200F06796 /* CalculatorView.swift */,
+				55B9F3632C08A3BB0029EE97 /* CalculatorViewModel.swift */,
+				55837A252BFA1DA800E42774 /* Style */,
+				55294E072BEF82B300F06796 /* Model */,
 				55DA13142BEE60BD007B4293 /* CalculatorApp.swift */,
-				55DA13162BEE60BD007B4293 /* ContentView.swift */,
 				55DA13182BEE60BE007B4293 /* Assets.xcassets */,
 				55DA131A2BEE60BE007B4293 /* Preview Content */,
+				55854AAE2C04CF9700D63792 /* Constants.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -67,6 +114,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		55E970862C0297AA0055F4A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55E970872C0297B10055F4A1 /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55E970872C0297B10055F4A1 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				55E970882C0297D50055F4A1 /* CalculatorButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +140,16 @@
 				55DA130D2BEE60BD007B4293 /* Sources */,
 				55DA130E2BEE60BD007B4293 /* Frameworks */,
 				55DA130F2BEE60BD007B4293 /* Resources */,
+				55E9708B2C029AEC0055F4A1 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Calculator;
+			packageProductDependencies = (
+				55B9F3662C08C3EB0029EE97 /* Inject */,
+			);
 			productName = Calculator;
 			productReference = 55DA13112BEE60BD007B4293 /* Calculator.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +178,9 @@
 				Base,
 			);
 			mainGroup = 55DA13082BEE60BD007B4293;
+			packageReferences = (
+				55B9F3652C08C3EB0029EE97 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 55DA13122BEE60BD007B4293 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55E9708D2C029BCD0055F4A1 /* .swiftlint.yml in Resources */,
 				55DA131C2BEE60BE007B4293 /* Preview Assets.xcassets in Resources */,
 				55DA13192BEE60BE007B4293 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +203,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55E9708B2C029AEC0055F4A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = " if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55DA130D2BEE60BD007B4293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55DA13172BEE60BD007B4293 /* ContentView.swift in Sources */,
+				55837A222BFA196200E42774 /* ArithmeticOperation.swift in Sources */,
+				55E970892C0297D50055F4A1 /* CalculatorButton.swift in Sources */,
 				55DA13152BEE60BD007B4293 /* CalculatorApp.swift in Sources */,
+				55837A1E2BFA18D100E42774 /* ButtonType.swift in Sources */,
+				55B9F3642C08A3BB0029EE97 /* CalculatorViewModel.swift in Sources */,
+				55837A272BFA1DC000E42774 /* CalculatorButtonStyle.swift in Sources */,
+				55854AB12C04D55E00D63792 /* Calculator.swift in Sources */,
+				55294E062BEF821200F06796 /* CalculatorView.swift in Sources */,
+				55837A202BFA194A00E42774 /* Digit.swift in Sources */,
+				55854AAF2C04CF9700D63792 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +303,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -274,6 +379,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = X3Y69D3VMD;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +409,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Calculator/Preview Content\"";
 				DEVELOPMENT_TEAM = X3Y69D3VMD;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,6 +451,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55B9F3652C08C3EB0029EE97 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55B9F3662C08C3EB0029EE97 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55B9F3652C08C3EB0029EE97 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55DA13092BEE60BD007B4293 /* Project object */;
 }
